@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.10.7 on win32)" generated="2025-03-03T02:49:32.639337" rpa="false" schemaversion="5">
+<suite id="s1" name="bookFlight" source="C:\Users\FEBY\Sanber64-Mobile-Kelompok3\suites\bookFlight.robot">
+<test id="s1-t1" name="User Can Book Flight" line="104">
+<kw name="Open Flight Application">
+<kw name="Open Application" owner="AppiumLibrary">
+<kw name="Capture Page Screenshot" owner="AppiumLibrary">
+<msg time="2025-03-03T02:50:19.142922" level="FAIL">No application is open</msg>
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<status status="FAIL" start="2025-03-03T02:50:19.142922" elapsed="0.508112">No application is open</status>
+</kw>
+<msg time="2025-03-03T02:50:19.652036" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2025-03-03T02:50:19.653036" level="FAIL">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\FEBY\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 1'; Command output: adb.exe: device 'emulator-5554' not found
+
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\FEBY\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 1'; Command output: adb.exe: device 'emulator-5554' not found
+
+    at getResponseForW3CError (C:\Users\FEBY\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1143:9)
+    at asyncHandler (C:\Users\FEBY\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:487:57)</msg>
+<arg>remote_url=http://127.0.0.1:4723</arg>
+<arg>platformName=Android</arg>
+<arg>platformVersion=12.0</arg>
+<arg>deviceName=emulator-5554</arg>
+<arg>appPackage=com.example.myapplication</arg>
+<arg>appActivity=com.example.myapplication.MainActivity</arg>
+<arg>automationName=uiautomator2</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://appium.io/docs/en/2.1/cli/args/
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |
+| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
+<status status="FAIL" start="2025-03-03T02:49:33.443921" elapsed="46.210116">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\FEBY\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 1'; Command output: adb.exe: device 'emulator-5554' not found
+
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\FEBY\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 1'; Command output: adb.exe: device 'emulator-5554' not found
+
+    at getResponseForW3CError (C:\Users\FEBY\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1143:9)
+    at asyncHandler (C:\Users\FEBY\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:487:57)</status>
+</kw>
+<status status="FAIL" start="2025-03-03T02:49:33.442898" elapsed="46.211139">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\FEBY\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 1'; Command output: adb.exe: device 'emulator-5554' not found
+
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\FEBY\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 1'; Command output: adb.exe: device 'emulator-5554' not found
+
+    at getResponseForW3CError (C:\Users\FEBY\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1143:9)
+    at asyncHandler (C:\Users\FEBY\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:487:57)</status>
+</kw>
+<kw name="Verify HomeScreen Appears">
+<status status="NOT RUN" start="2025-03-03T02:50:19.654037" elapsed="0.000000"/>
+</kw>
+<kw name="Click Signin button on HomePage">
+<status status="NOT RUN" start="2025-03-03T02:50:19.655091" elapsed="0.000000"/>
+</kw>
+<kw name="Verify Signin Screen Appears">
+<status status="NOT RUN" start="2025-03-03T02:50:19.655091" elapsed="0.000000"/>
+</kw>
+<kw name="Input Username">
+<status status="NOT RUN" start="2025-03-03T02:50:19.655091" elapsed="0.000000"/>
+</kw>
+<kw name="Input Password">
+<status status="NOT RUN" start="2025-03-03T02:50:19.655091" elapsed="0.000000"/>
+</kw>
+<kw name="Click Button login on LoginPage">
+<status status="NOT RUN" start="2025-03-03T02:50:19.655091" elapsed="0.000945"/>
+</kw>
+<kw name="Verify Success Login and User Appears">
+<status status="NOT RUN" start="2025-03-03T02:50:19.656036" elapsed="0.000000"/>
+</kw>
+<kw name="Click Book on HomePage">
+<status status="NOT RUN" start="2025-03-03T02:50:19.656036" elapsed="0.000000"/>
+</kw>
+<kw name="Click City From">
+<status status="NOT RUN" start="2025-03-03T02:50:19.656036" elapsed="0.000000"/>
+</kw>
+<kw name="Verify Date Appears">
+<status status="NOT RUN" start="2025-03-03T02:50:19.656036" elapsed="0.000000"/>
+</kw>
+<kw name="Choose City From">
+<status status="NOT RUN" start="2025-03-03T02:50:19.656036" elapsed="0.000000"/>
+</kw>
+<kw name="Click City To">
+<status status="NOT RUN" start="2025-03-03T02:50:19.657035" elapsed="0.000000"/>
+</kw>
+<kw name="Verify Date Appears">
+<status status="NOT RUN" start="2025-03-03T02:50:19.657035" elapsed="0.000000"/>
+</kw>
+<kw name="Choose City To">
+<status status="NOT RUN" start="2025-03-03T02:50:19.657035" elapsed="0.000000"/>
+</kw>
+<kw name="Click Class Dropdown">
+<status status="NOT RUN" start="2025-03-03T02:50:19.657035" elapsed="0.000000"/>
+</kw>
+<kw name="Choose Class">
+<status status="NOT RUN" start="2025-03-03T02:50:19.657035" elapsed="0.000000"/>
+</kw>
+<kw name="Click Start Date">
+<status status="NOT RUN" start="2025-03-03T02:50:19.657035" elapsed="0.000000"/>
+</kw>
+<kw name="Choose Start Date">
+<status status="NOT RUN" start="2025-03-03T02:50:19.657035" elapsed="0.000000"/>
+</kw>
+<kw name="Click OK on Start Date">
+<status status="NOT RUN" start="2025-03-03T02:50:19.658033" elapsed="0.000000"/>
+</kw>
+<kw name="Click End Date">
+<status status="NOT RUN" start="2025-03-03T02:50:19.658033" elapsed="0.000000"/>
+</kw>
+<kw name="Choose End Date">
+<status status="NOT RUN" start="2025-03-03T02:50:19.658033" elapsed="0.000000"/>
+</kw>
+<kw name="Click OK on End Date">
+<status status="NOT RUN" start="2025-03-03T02:50:19.658033" elapsed="0.000000"/>
+</kw>
+<kw name="Click Option Flight">
+<status status="NOT RUN" start="2025-03-03T02:50:19.658033" elapsed="0.000000"/>
+</kw>
+<kw name="CLick Button Book">
+<status status="NOT RUN" start="2025-03-03T02:50:19.658033" elapsed="0.000000"/>
+</kw>
+<kw name="Verify On PricePage">
+<status status="NOT RUN" start="2025-03-03T02:50:19.658033" elapsed="0.001000"/>
+</kw>
+<kw name="Choose Price">
+<status status="NOT RUN" start="2025-03-03T02:50:19.659033" elapsed="0.000000"/>
+</kw>
+<kw name="Click Confirm Button">
+<status status="NOT RUN" start="2025-03-03T02:50:19.659033" elapsed="0.000000"/>
+</kw>
+<kw name="Verify Success Booking">
+<status status="NOT RUN" start="2025-03-03T02:50:19.659033" elapsed="0.000000"/>
+</kw>
+<kw name="Close Flight Application">
+<status status="NOT RUN" start="2025-03-03T02:50:19.659033" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2025-03-03T02:49:33.441899" elapsed="46.217134">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\FEBY\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 1'; Command output: adb.exe: device 'emulator-5554' not found
+
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\FEBY\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 1'; Command output: adb.exe: device 'emulator-5554' not found
+
+    at getResponseForW3CError (C:\Users\FEBY\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1143:9)
+    at asyncHandler (C:\Users\FEBY\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:487:57)</status>
+</test>
+<status status="FAIL" start="2025-03-03T02:49:32.646046" elapsed="47.016497"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="bookFlight" id="s1" pass="0" fail="1" skip="0">bookFlight</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-03-03T02:50:19.652036" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+</errors>
+</robot>
